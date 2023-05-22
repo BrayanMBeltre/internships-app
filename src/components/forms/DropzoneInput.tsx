@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import get from 'lodash.get';
+import { get } from 'lodash';
 import * as React from 'react';
 import { Accept, FileRejection, useDropzone } from 'react-dropzone';
 import { Controller, useFormContext } from 'react-hook-form';

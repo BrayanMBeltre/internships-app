@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import get from 'lodash.get';
+import { get } from 'lodash';
 import { RegisterOptions, useFormContext } from 'react-hook-form';
 
 import Typography from '@/components/typography/Typography';

@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import get from 'lodash.get';
+import { get } from 'lodash';
 import ReactDatePicker, { ReactDatePickerProps } from 'react-datepicker';
 import { Controller, RegisterOptions, useFormContext } from 'react-hook-form';
 import { HiOutlineCalendar } from 'react-icons/hi';

@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import get from 'lodash.get';
+import { get } from 'lodash';
 import { useState } from 'react';
 import { RegisterOptions, useFormContext } from 'react-hook-form';
 import { HiEye, HiEyeOff } from 'react-icons/hi';

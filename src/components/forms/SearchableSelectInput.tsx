@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import get from 'lodash.get';
+import { get } from 'lodash';
 import { Controller, RegisterOptions, useFormContext } from 'react-hook-form';
 import { FiChevronDown, FiX } from 'react-icons/fi';
 import Select, { components, MultiValue, StylesConfig } from 'react-select';
